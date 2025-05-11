@@ -13,22 +13,6 @@ This project uses an Arduino to control a servo-operated gate with an **HC-SR04 
 - Passive Buzzer  
 - Jumper Wires  
 
-### **Connection Details**  
-| Component       | Arduino Pin |
-|----------------|------------|
-| HC-SR04 Trigger | D2         |
-| HC-SR04 Echo    | D3         |
-| Red LED (Anode) | D4         |
-| Red LED (Cathode) | D8        |
-| Blue LED (Cathode) | D7       |
-| Blue LED (Anode) | D5         |
-| Servo Signal    | D6         |
-| Buzzer (+)      | D12        |
-
-> **Tip:** Ensure all components share a common ground (`GND`).  
-
----
-
 ## ⚙️ **Software Setup Instructions**  
 ### **1. Install the Servo Library**  
 The project uses the **Servo library**, which is included by default in the Arduino IDE. If it’s missing:  
